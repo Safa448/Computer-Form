@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <title>Computer Components Order Form</title>
+        <!-- CSS stylesheet link -->
+    <link rel="stylesheet" href="styles.css"> 
+        
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      </head>
+      
+    <body>
+      <div>
+        <h1>Computer Components Order Form</h1>
+      </div>
+        <br>
+    <div class="myEmployee">    
+    <h2>Employee Information</h2>
+    <br>
+    
+    <div class="myName">
+    <p1>Name: </p1>
+    <input type="text" name="Name" id="Name" placeholder="First and Last Name" required>
+    </div>
+    
+    <div class="myEmail">
+    <p2>Email Address:</p2>
+    <input type="text" name="Email Address" id="Email" placeholder="name@company.org">
+    </div>
+    </div>
+    
+    
+
+    <div class="myForm">
+
+    <h2>Please select the desired Component</h2>
+    <form>
+        <label for="Components">Components: </label>
+        <select id="components" name="Components">
+        <option value="CPU">CPU</option>
+        <option value="MotherBoard">MotherBoard</option>
+        <option value="Monitor">Monitor</option>
+        <option value="Hard drive">hard drive</option>
+        </select>
+    </form>
+    </div>
+
+    <br>
+
+    <div class="myForm2">
+    <form>
+      <label for="Quantity">Quantity: </label>
+      <select id="quantity" name="Quantity">
+      <option value="1">1</option>
+      <option value="1">2</option>
+      <option value="1">3</option>
+      <option value="1">4</option>
+      <option value="1">5</option>
+      </select>
+      </form>
+    </div>
+    
+    <br>
+
+    <div class="myComment">
+    <label for="comments">Add comments for further specification if needed</label><br>
+    
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+    
+    <br>
+    
+   <button onclick="myFunction_1()" type="button" class="btn btn-primary">
+    Order Now!
+   </button>
+   
+    <!-- JavaScript functionality -->
+    <script>
+        function myFunction_1() {
+            alert("Your order has been submitted!");
+        }
+    </script>
+    </body>
+    
+    <br>
+  </div>
+</html>
